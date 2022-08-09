@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Portafolio
 
 _Portafolio Daniel Sotelo_
 
@@ -29,12 +29,6 @@ Inicializa en archivo index.html dentro de tu navegador preferido.
 * [Bootstrap](https://getbootstrap.com/) - Framework de estilos utilizado.
 * [Fontawesome](https://fontawesome.com/) - Framework para los iconos
 * [FontawesomeCDN](https://cdnjs.com/libraries/font-awesome) - CDN utilizado para libreria externa.
-
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/danielSoteloA/portafolio.git) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
 
 ## Autores ✒️
 
