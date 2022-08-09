@@ -4,7 +4,7 @@ _Portafolio Daniel Sotelo_
 
 ## Comenzando 🚀
 
-_Url: https://danielsoteloa.github.io/landing_test/_
+_Url: https://danielsoteloa.github.io/portafolio/_
 
 
 ### Pre-requisitos 📋
