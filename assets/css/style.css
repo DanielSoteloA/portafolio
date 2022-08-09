@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #EEEEEE;
+    background-color: #CCCCCC;
 }
 
 body{
@@ -16,4 +16,12 @@ header{
     background-position: center;
     background-size: cover;
     padding-bottom: 10rem;
+}
+
+h1{
+    text-shadow: 5px 5px 5px #CCCCCC;
+}
+
+h4{
+    text-shadow: 2px 2px 2px #CCCCCC;
 }
