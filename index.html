@@ -1,0 +1,161 @@
+<!-- html:5 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Daniel Sotelo</title>
+    <!--hoja de estilos-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/png">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#about">Acerca de mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="text-light text-end mt-5 p-5">
+            <div class="container">
+                <h1 class="d-flex display-1 fw-bold my-4">Daniel Sotelo</h1>
+                <a class="btn btn-outline-info btn-lg me-4" href="#work" role="button">Trabajo</a>
+                <a class="btn btn-info btn-lg" href="#contact" role="button">Contacto</a>
+            </div>
+        </header>
+
+        <!-- acerca de mi -->
+        <section id="about" class="container text-center py-5">
+            <h2 class="display-3 fw-bold my-4">Acerca de mí</h2>
+            <p class="my-4">
+                Soy desarrollador de aplicaciones web, con Experiencia en Back End y Front End.<br/> 
+                Manejo de bases de datos relacionales y conocimientos en maquetación y diseño
+            </p>
+
+            <div class="row">
+                <!--row-->
+                <div class="col-md-4">
+                    <i class="fa-solid fa-network-wired fa-3x my-3"></i>
+                    <h3 class="my-3">Desarrollador</h3>
+                    <p class="my-3">
+                        Desarrollos Back y Front End
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-solid fa-code fa-3x my-3"></i>
+                    <h3 class="my-3">Programador</h3>
+                    <p class="my-3">
+                        PHP - Java - SQL - JSON
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-solid fa-palette fa-3x my-3"></i>
+                    <h3 class="my-3">Diseñador</h3>
+                    <p class="my-3">
+                        CSS - HTML 5 - PhotoShop
+                    </p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- trabajos -->
+        <section id="work" class="container-fluid bg-info my-4 p-5">
+            <h2 class="display-3 text-center text-light fw-bold my-4">Mis trabajos</h2>
+
+            <div class="card-group">
+                <!-- primera card -->
+                <div class="card mx-2">
+                    <img src="assets/img/card-1.jpg" class="card-img-top h-50" alt="card-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Viajes Chile</h5>
+                        <p class="card-text">Desafio Latam Viajes Chile<br/>Html 5 | JavaScript | CSS </p>
+                        <a href="https://danielsoteloa.github.io/viajeschile/" class="btn btn-outline-info" target="_blank">Ver más</a>
+                    </div>
+                </div>
+                <!-- segunda card -->
+                <div class="card mx-2">
+                    <img src="assets/img/card-2.jpg" class="card-img-top h-50" alt="card-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Landing Page</h5>
+                        <p class="card-text">Ejemplo de Landing Page en JavaScript, con uso de buenas prácticas en Github
+                        </p>
+                        <a href="https://danielsoteloa.github.io/landing_test/" class="btn btn-outline-info" target="_blank">Ver más</a>
+                    </div>
+                </div>
+                <!-- tercer card -->
+                <div class="card mx-2">
+                    <img src="assets/img/card-3.jpg" class="card-img-top h-50" alt="card-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pinturas Veloso</h5>
+                        <p class="card-text">Página Web para pinturería. Uso de HTML 5 | JavsScript | CSS | PHP
+                        </p>
+                        <a href="https://pinturasveloso.cl/" class="btn btn-outline-info" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="container py-5 col-8">
+            <h2 class="display-3 fw-bold text-center">Contáctame en 
+                <a href="https://github.com/DanielSoteloA/"><i class="icon fab fa-github fa-1x link-secondary"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-sotelo-alarcon-264167248/"><i class="icon fab fa-linkedin-in fa-1x link-secondary"></i></a>
+                <a href="mailto:danielsoteloalarcon@gmail.com"><i class="icon fas fa-envelope fa-1x link-secondary"></i></a>
+            </h2>
+
+        </section>
+
+        <footer class=" text-light text-center bg-dark p-4">
+            <p>Portafolio @DanielSoteloA</p>
+        </footer>
+
+    </div>
+
+    <!--popper boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
